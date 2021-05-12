@@ -36,3 +36,138 @@
     transform: rotate(360deg);
   }
 }
+.books-list {
+  margin: 50px;
+  text-align: center;
+}
+.book-display {
+  border: 2px solid rgb(255, 253, 253);
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+  height: 340px;
+  /* padding : 5px; */
+  box-shadow: 1px 1px 20px 10px #aaa7a7;
+  background-color: linen;
+  border-radius: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+
+  @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+  font-family: 'Original Surfer', cursive;
+}
+.book-display:hover {
+  box-shadow: 1px 1px 20px 10px #202020;
+  cursor: pointer;
+}
+.book-display p {
+  font-size: small;
+}
+ 
+.book-display img {
+  width: 176px;
+  height: 220px;
+  border-radius: 20px;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+  background-color: aqua;
+}
+.navbar-brand{
+  border:1px solid black;
+   background-color:black; 
+  color:whitesmoke;
+  box-shadow: 3em;
+  border-radius:10px;
+  @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+  font-family: 'Original Surfer', cursive;
+}
+.navbar-brand:hover{
+ background-color:magenta;
+
+}
+.nav-link{
+  border:1px solid black;
+  background-color:black; 
+ color:whitesmoke;
+ box-shadow: 3em;
+ border-radius:8px;
+ 
+ margin:5px;
+ @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+ font-family: 'Original Surfer', cursive;
+}
+.nav-link:hover{
+background-color:magenta;
+}
+.books-list{
+  background-image: url(component/abstract-colorful-light-vector-background-free-34147.jpg);
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+  background-color:lightgreen ;
+}
+.checked-star{
+  color:blue
+  
+}
+.detail  h1{
+  margin-top:4px;
+   border:2px inset yellow;
+   color:dar;
+   background-color: honeydew;
+   border-radius: 3rem;
+   box-shadow: 5px 10px grey ;
+
+ 
+   @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+   font-family: 'Krona One', sans-serif;
+  
+}
+.detail p{
+  display:block;
+  margin-left: 50px;
+  margin-right:auto;
+  border: 2px outset thistle;
+  border-radius: 2rem;
+  text-align:center;
+  background-color:#c876ff;
+  box-shadow: 10px 10px 5px lightslategrey;
+
+}
+.detail img{
+  width:290px;
+  height:430px;
+  float:left;
+}
+.detail h4{
+ 
+  text-align:right;
+  border: 6px inset #4D774E ;
+  color:limegreen;
+
+  box-sizing: border-box;
+  display: inline-block;
+ 
+}
+
+.register{
+  border:1px solid 
+}
+.rating{
+  margin-top: -10px;
+}
+.login-button{
+ text-align: center !important;
+ width:100%;
+ 
+}
+.row{
+ background-image: url('./component/R734f9b7771583cb0e3c0eeb5be7e8f53.jpg') ;
+}
+.registersubmit{
+  text-align: center;
+  color:black ;
+ 
+}
+.registersubmit button{
+  background-color:rgb(3, 221, 105) ;
+}
